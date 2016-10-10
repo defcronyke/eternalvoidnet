@@ -8,9 +8,15 @@ body, h1, h2, h3 {
   font-weight: 300
 }
 
+body {
+	background: url('/assets/img/world_soup.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 a {
-  color: white;
   text-decoration: none;
+  color: white;
 
   &:hover {
     color: #5aadbb;
@@ -26,12 +32,19 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
+  //background-color: #00ffff;
+  //background-color: rgba(0, 255, 255, 0.0);
 }
 
 .header {
   display: flex;
   align-items: center;
-  background-color: #1f1f1f;
+  //background-color: #00ffff;
+  background-color: rgba(0, 255, 255, 0.0);
+  
+  a {
+  	color: #ff22aa;
+  }
 }
 .header-title {
   flex: 1;
@@ -50,8 +63,14 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  background-color: #cf4646;
-  color: white;
+  //background-color: #ff22aa;
+  background: url('/assets/img/defcronyke-epoch-album-cover.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 34, 170, 0.0);
+  //color: #00ffff;
+  color: rgba(0, 255, 255, 1.0);
+  //color: url('/assets/img/world_soup.png');
 }
 .title-h1 {
   font-weight: 300;
@@ -90,6 +109,12 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  
+  a { 
+	  &:visited {
+	  	color: black;
+	  }
+  }
 }
 
 .tech {
@@ -99,6 +124,11 @@ a {
   border-radius: 1rem;
   margin: 1rem;
   padding: 1rem;
+  background-color: rgba(0, 255, 255, 0.4);
+  
+  /* &:hover {
+    color: #5aadbb;
+  } */
 }
 .tech-logo {
   width: 5rem;
