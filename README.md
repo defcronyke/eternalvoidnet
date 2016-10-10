@@ -1,0 +1,2 @@
+# eternalvoidnet
+A website.
