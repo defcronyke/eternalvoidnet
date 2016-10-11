@@ -4,7 +4,7 @@
     "title": "JCCSS",
     "logo": "",
     "text1": "Jeremy Carter's Computer Service and Sales",
-    "text2": "Buy a new high quality custom Linux or Windows desktop or laptop computer.",
+    "text2": "Buy a new high quality custom Linux or Windows desktop or laptop computer. Full stack development services available as well.",
     "link": "https://jccss.ca"
   },
   
@@ -21,7 +21,7 @@
     "key": "telephone_sound",
     "title": "Telephone Sound",
     "logo": "",
-    "text1": "Music",
+    "text1": "Daphne and Jeremy's music.",
     "link": "http://telephonesound.com"
   },
   
@@ -29,7 +29,7 @@
     "key": "defcronyke",
     "title": "Defcronyke",
     "logo": "",
-    "text1": "Music",
+    "text1": "Some of Jeremy's earlier music.",
     "link": "http://defcronyke.com"
   },
   
@@ -46,7 +46,7 @@
     "key": "audio_fun_2",
     "title": "Audio Visuals",
     "logo": "",
-    "text1": "Made with HTML5 Canvas and Web Audio API",
+    "text1": "Made with HTML5 Canvas and Web Audio API.",
     "link": "https://audiofun2.appspot.com"
   },
   
@@ -56,6 +56,23 @@
     "logo": "",
     "text1": "Search for the opposite of what you're looking for.",
     "link": "http://lucid-shuttle-100413.appspot.com"
+  },
+  
+  {
+    "key": "miafavors",
+    "title": "Mia Favors",
+    "logo": "",
+    "text1": "A woocommerce wordpress online store designed and developed by Jeremy for a freelance contract.",
+    "text2": "It's a great wedding and party favours retailer in New York City. Check them out if you need any fancy party favours for your next event.",
+    "link": "http://miafavors.com"
+  },
+  
+  {
+    "key": "yeoman_fountainjs_angular2",
+    "title": "Yeoman FountainJS Angular2 TypeScript",
+    "logo": "",
+    "text1": "A highly recommended client-side web framework. This site is made with it.",
+    "link": "http://fountainjs.io"
   },
   
   {
