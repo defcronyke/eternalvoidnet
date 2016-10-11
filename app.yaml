@@ -1,0 +1,21 @@
+application: eternalvoidnet
+module: default
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /.*
+  script: _go_app
+
+skip_files:
+- static/bower_components
+- static/e2e
+- static/gulp
+- static/node_modules
+- static/src
+- bower.json
+- gulpfile.js
+- karma.conf.js
+- package.json
+- protractor.conf.js

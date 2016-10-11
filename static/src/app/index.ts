@@ -24,4 +24,8 @@ import {FooterComponent} from './footer';
   ],
   bootstrap: [RootComponent]
 })
-export class AppModule {}
+export class AppModule {
+	constructor() {
+		
+	}
+}

@@ -1,10 +1,60 @@
 [
   {
+    "key": "jccss",
+    "title": "JCCSS",
+    "logo": "",
+    "text1": "Jeremy Carter's Computer Service and Sales",
+    "text2": "Buy a new high quality custom Linux or Windows desktop or laptop computer.",
+    "link": "https://jccss.ca"
+  },
+  
+  {
     "key": "recipes",
     "title": "Recipes",
     "logo": "",
     "text1": "Cook good food.",
     "text2": "And eat it.",
     "link": "https://github.com/defcronyke/recipes"
+  },
+  
+  {
+    "key": "telephone_sound",
+    "title": "Telephone Sound",
+    "logo": "",
+    "text1": "Music",
+    "link": "http://telephonesound.com"
+  },
+  
+  {
+    "key": "defcronyke",
+    "title": "Defcronyke",
+    "logo": "",
+    "text1": "Music",
+    "link": "http://defcronyke.com"
+  },
+  
+  {
+    "key": "audio_reactive_camera_filter",
+    "title": "Audio-Reactive Camera Filter",
+    "logo": "",
+    "text1": "Made with HTML5 Canvas and WebGL.",
+    "text2": "Try it on your cellphone or tablet.",
+    "link": "http://unique-result-840.appspot.com/webgl2/webcam_mic1"
+  },
+  
+  {
+    "key": "audio_fun_2",
+    "title": "Audio Visuals",
+    "logo": "",
+    "text1": "Made with HTML5 Canvas and Web Audio API",
+    "link": "https://audiofun2.appspot.com"
+  },
+  
+  {
+    "key": "contrarium",
+    "title": "Contrarium",
+    "logo": "",
+    "text1": "Search for the opposite of what you're looking for.",
+    "link": "http://lucid-shuttle-100413.appspot.com"
   }
 ]
