@@ -51,11 +51,28 @@
   },
   
   {
+    "key": "box_hunter",
+    "title": "Box Hunter",
+    "logo": "",
+    "text1": "A Box2D-based WebGL game where you have to try to get to the black box without breaking it first.",
+    "link": "http://defcronyke.github.io/box-hunter-online"
+  },
+  
+  {
     "key": "contrarium",
     "title": "Contrarium",
     "logo": "",
     "text1": "Search for the opposite of what you're looking for.",
     "link": "https://lucid-shuttle-100413.appspot.com"
+  },
+  
+  {
+    "key": "grid_pattern_maker",
+    "title": "Grid Pattern Maker",
+    "logo": "",
+    "text1": "For knitting designs or other.",
+    "text2": "Cross-platform, made with C++, WxWidgets, and SDL2.",
+    "link": "https://github.com/defcronyke/GridPatternMaker"
   },
   
   {
