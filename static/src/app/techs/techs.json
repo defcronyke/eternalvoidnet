@@ -9,61 +9,30 @@
   },
   
   {
-    "key": "recipes",
-    "title": "Recipes",
-    "logo": "",
-    "text1": "Cook good food.",
-    "text2": "And eat it.",
-    "link": "https://github.com/defcronyke/recipes"
-  },
-  
-  {
-    "key": "telephone_sound",
-    "title": "Telephone Sound",
-    "logo": "",
-    "text1": "Daphne and Jeremy's music.",
-    "link": "http://telephonesound.com"
-  },
-  
-  {
-    "key": "defcronyke",
-    "title": "Defcronyke",
-    "logo": "",
-    "text1": "Some of Jeremy's earlier music.",
-    "link": "http://defcronyke.com"
-  },
-  
-  {
     "key": "audio_reactive_camera_filter",
     "title": "Audio-Reactive Camera Filter",
     "logo": "",
-    "text1": "Made with HTML5 Canvas and WebGL.",
-    "text2": "Try it on your cellphone or tablet.",
+    "text1": "Visualize your environment through sound. Try it on your cellphone or tablet.",
+    "text2": "Made with HTML5 Web Audio API and WebGL.",
     "link": "https://unique-result-840.appspot.com/webgl2/webcam_mic1"
   },
   
   {
-    "key": "audio_fun_2",
-    "title": "Audio Visuals",
+    "key": "stacktris",
+    "title": "Stacktris",
     "logo": "",
-    "text1": "Made with HTML5 Canvas and Web Audio API.",
-    "link": "https://audiofun2.appspot.com"
+    "text1": "A game that's like Tetris, but opposite.",
+    "text2": "Made with Box2D and PixiJS.",
+    "link": "https://defcronyke.github.io/stacktris"
   },
   
   {
     "key": "box_hunter",
     "title": "Box Hunter",
     "logo": "",
-    "text1": "A Box2D-based WebGL game where you have to try to get to the black box without breaking it first.",
+    "text1": "A game where you have to try to get to the black box without breaking it first.",
+    "text2": "Made with Box2D and WebGL.",
     "link": "https://defcronyke.github.io/box-hunter-online"
-  },
-  
-  {
-    "key": "contrarium",
-    "title": "Contrarium",
-    "logo": "",
-    "text1": "Search for the opposite of what you're looking for.",
-    "link": "https://lucid-shuttle-100413.appspot.com"
   },
   
   {
@@ -76,8 +45,52 @@
   },
   
   {
+    "key": "audio_fun_2",
+    "title": "Audio Visuals",
+    "logo": "",
+    "text1": "Visualize your music with this HTML5 audio player.",
+    "text2": "Made with HTML5 Canvas and Web Audio API.",
+    "link": "https://audiofun2.appspot.com"
+  },
+  
+  {
+    "key": "contrarium",
+    "title": "Contrarium",
+    "logo": "",
+    "text1": "Search for the opposite of what you're looking for.",
+    "text2": "Made using the Wordnik API.",
+    "link": "https://lucid-shuttle-100413.appspot.com"
+  },
+  
+  {
+    "key": "recipes",
+    "title": "Recipes",
+    "logo": "",
+    "text1": "Cook good food.",
+    "text2": "And eat it.",
+    "link": "https://github.com/defcronyke/recipes"
+  },
+  
+  {
+    "key": "telephone_sound",
+    "title": "Telephone Sound",
+    "logo": "",
+    "text1": "Daphne and Jeremy's band, formed in 2013.",
+    "text2": "The debut album is available here for streaming or digital download purchase. Recorded and produced entirely using free open source software, such as Ardour, ZynAddSubFX, Hydrogen, etc.",
+    "link": "http://telephonesound.com"
+  },
+  
+  {
+    "key": "defcronyke",
+    "title": "Defcronyke",
+    "logo": "",
+    "text1": "Some of Jeremy's earlier music.",
+    "link": "http://defcronyke.com"
+  },
+  
+  {
     "key": "miafavors",
-    "title": "Mia Favors",
+    "title": "MiaFavors.com",
     "logo": "",
     "text1": "A woocommerce wordpress online store designed and developed by Jeremy for a freelance contract.",
     "text2": "It's a great wedding and party favours retailer in New York City. Check them out if you need any fancy party favours for your next event.",
@@ -85,8 +98,17 @@
   },
   
   {
-    "key": "yeoman_fountainjs_angular2",
-    "title": "Yeoman FountainJS Angular2 TypeScript",
+    "key": "prettyweirdca",
+    "title": "PrettyWeird.ca",
+    "logo": "",
+    "text1": "Home of Daphne Volante, the artist who made the background image on this site.",
+    "text2": "She is the other member of Telephone Sound, and has collaborated and helped on some of these works.",
+    "link": "http://prettyweird.ca"
+  },
+  
+  {
+    "key": "yeoman_fountainjs",
+    "title": "Yeoman FountainJS",
     "logo": "",
     "text1": "A highly recommended client-side web framework. This site is made with it.",
     "link": "http://fountainjs.io"
@@ -98,5 +120,14 @@
     "logo": "",
     "text1": "The source code for this website.",
     "link": "https://github.com/defcronyke/eternalvoidnet"
+  },
+  
+  {
+    "key": "pay_jeremy",
+    "title": "Pay Jeremy for Work, Donation, or Other",
+    "logo": "",
+    "text1": "PayPal or Interac E-Transfer: Jeremy@JeremyCarter.ca",
+    "text2": "Bitcoin (BTC): 19kvJVcoSfMFAsryjFM9qwvHFSxDbHsNtF"
+    
   }
 ]

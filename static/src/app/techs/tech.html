@@ -1,4 +1,4 @@
-<a [href]="tech.link">
+<a *ngIf="tech.link" [href]="tech.link">
 	<div class="tech">
 		  <img *ngIf="tech.logo" class="tech-logo" [src]="tech.logo"/>
 		  <h3 class="tech-h3">
@@ -8,3 +8,12 @@
 		  <p>{{ tech.text2 }}</p>
 	</div>
 </a>
+
+<div *ngIf="!tech.link" class="tech">
+	  <img *ngIf="tech.logo" class="tech-logo" [src]="tech.logo"/>
+	  <h3 class="tech-h3">
+	    {{ tech.title }}
+	  </h3>
+	  <p>{{ tech.text1 }}</p>
+	  <p>{{ tech.text2 }}</p>
+</div>
