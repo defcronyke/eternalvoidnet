@@ -7,15 +7,25 @@ api_version: go1
 handlers:
 - url: /.*
   script: _go_app
+  secure: always
 
 skip_files:
-- static/bower_components
-- static/e2e
-- static/gulp
-- static/node_modules
-- static/src
-- bower.json
-- gulpfile.js
-- karma.conf.js
-- package.json
-- protractor.conf.js
+- static/.tmp/
+- static/conf/
+- static/gulp_tasks/
+- static/node_modules/
+- static/src/
+- static/typings/
+- static/.editorconfig
+- static/.gitattributes
+- static/.gitignore
+- static/.yo-rc.json
+- static/gulpfile.js
+- static/package-lock.json
+- static/package.json
+- static/tsconfig.json
+- static/tslint.json
+- static/typings.json
+- .git/
+- .gitignore
+- README.md
