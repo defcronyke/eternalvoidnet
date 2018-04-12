@@ -7,6 +7,23 @@
     "text2": "Buy a new high quality custom Linux or Windows desktop or laptop computer. Full stack development services available as well.",
     "link": "https://jccss.ca"
   },
+
+  {
+    "key": "telephone_sound",
+    "title": "Telephone Sound",
+    "logo": "",
+    "text1": "Daphne and Jeremy's band, formed in 2013.",
+    "text2": "The debut album is available here for streaming or digital download purchase. Recorded and produced entirely using free open source software, such as Ardour, ZynAddSubFX, Hydrogen, etc.",
+    "link": "https://telephonesound.com"
+  },
+  
+  {
+    "key": "defcronyke",
+    "title": "Defcronyke",
+    "logo": "",
+    "text1": "Jeremy's solo electronic music project, started in 2006.",
+    "link": "https://defcronyke.com"
+  },
   
   {
     "key": "audio_reactive_camera_filter",
@@ -72,45 +89,19 @@
   },
   
   {
-    "key": "telephone_sound",
-    "title": "Telephone Sound",
-    "logo": "",
-    "text1": "Daphne and Jeremy's band, formed in 2013.",
-    "text2": "The debut album is available here for streaming or digital download purchase. Recorded and produced entirely using free open source software, such as Ardour, ZynAddSubFX, Hydrogen, etc.",
-    "link": "http://telephonesound.com"
-  },
-  
-  {
-    "key": "defcronyke",
-    "title": "Defcronyke",
-    "logo": "",
-    "text1": "Some of Jeremy's earlier music.",
-    "link": "http://defcronyke.com"
-  },
-  
-  {
-    "key": "miafavors",
-    "title": "MiaFavors.com",
-    "logo": "",
-    "text1": "A woocommerce wordpress online store designed and developed by Jeremy for a freelance contract.",
-    "text2": "It's a great wedding and party favours retailer in New York City. Check them out if you need any fancy party favours for your next event.",
-    "link": "http://miafavors.com"
-  },
-  
-  {
     "key": "prettyweirdca",
     "title": "PrettyWeird.ca",
     "logo": "",
-    "text1": "Home of Daphne Volante, the artist who made the background image on this site.",
-    "text2": "She is the other member of Telephone Sound, and has collaborated and helped on some of these works.",
-    "link": "http://prettyweird.ca"
+    "text1": "Unique apparel for all, by Daphne Volante, the artist who made the background image on this site.",
+    "text2": "Daphne is the other member of Telephone Sound, and has collaborated on some of the other stuff on this site.",
+    "link": "https://prettyweird.ca"
   },
   
   {
     "key": "yeoman_fountainjs",
     "title": "Yeoman FountainJS",
     "logo": "",
-    "text1": "A highly recommended client-side web framework. This site is made with it.",
+    "text1": "A client-side web framework that I recommend. This site is made with it.",
     "link": "http://fountainjs.io"
   },
   
