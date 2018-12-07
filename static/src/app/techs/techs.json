@@ -7,7 +7,6 @@
     "text2": "Buy a new high quality custom Linux or Windows desktop or laptop computer. Full stack development services available as well.",
     "link": "https://jccss.ca"
   },
-
   {
     "key": "telephone_sound",
     "title": "Telephone Sound",
@@ -16,7 +15,6 @@
     "text2": "The debut album is available here for streaming or digital download purchase. Recorded and produced entirely using free open source software, such as Ardour, ZynAddSubFX, Hydrogen, etc.",
     "link": "https://telephonesound.com"
   },
-  
   {
     "key": "defcronyke",
     "title": "Defcronyke",
@@ -24,70 +22,6 @@
     "text1": "Jeremy's solo electronic music project, started in 2006.",
     "link": "https://defcronyke.com"
   },
-  
-  {
-    "key": "audio_reactive_camera_filter",
-    "title": "Audio-Reactive Camera Filter",
-    "logo": "",
-    "text1": "Visualize your environment through sound. Try it on your cellphone or tablet.",
-    "text2": "Made with HTML5 Web Audio API and WebGL.",
-    "link": "https://unique-result-840.appspot.com/webgl2/webcam_mic1"
-  },
-  
-  {
-    "key": "stacktris",
-    "title": "Stacktris",
-    "logo": "",
-    "text1": "A game that's like Tetris, but opposite.",
-    "text2": "Made with Box2D and PixiJS.",
-    "link": "https://defcronyke.github.io/stacktris"
-  },
-  
-  {
-    "key": "box_hunter",
-    "title": "Box Hunter",
-    "logo": "",
-    "text1": "A game where you have to try to get to the black box without breaking it first.",
-    "text2": "Made with Box2D and WebGL.",
-    "link": "https://defcronyke.github.io/box-hunter-online"
-  },
-  
-  {
-    "key": "grid_pattern_maker",
-    "title": "Grid Pattern Maker",
-    "logo": "",
-    "text1": "For knitting designs or other.",
-    "text2": "Cross-platform, made with C++, WxWidgets, and SDL2.",
-    "link": "https://github.com/defcronyke/GridPatternMaker"
-  },
-  
-  {
-    "key": "audio_fun_2",
-    "title": "Audio Visuals",
-    "logo": "",
-    "text1": "Visualize your music with this HTML5 audio player.",
-    "text2": "Made with HTML5 Canvas and Web Audio API.",
-    "link": "https://audiofun2.appspot.com"
-  },
-  
-  {
-    "key": "contrarium",
-    "title": "Contrarium",
-    "logo": "",
-    "text1": "Search for the opposite of what you're looking for.",
-    "text2": "Made using the Wordnik API.",
-    "link": "https://lucid-shuttle-100413.appspot.com"
-  },
-  
-  {
-    "key": "recipes",
-    "title": "Recipes",
-    "logo": "",
-    "text1": "Cook good food.",
-    "text2": "And eat it.",
-    "link": "https://github.com/defcronyke/recipes"
-  },
-  
   {
     "key": "prettyweirdca",
     "title": "PrettyWeird.ca",
@@ -96,15 +30,85 @@
     "text2": "Daphne is the other member of Telephone Sound, and has collaborated on some of the other stuff on this site.",
     "link": "https://prettyweird.ca"
   },
-  
+  {
+    "key": "shipping-canada-post-woocommerce",
+    "title": "Shipping Canada Post WooCommerce",
+    "logo": "",
+    "text1": "A free WordPress plugin for WooCommerce that gives very accurate shipping estimates for Canada Post.",
+    "text2": "Provides some of the premium features from other similar plugins for free. This was a collaboration between Jeremy and Daphne.",
+    "link": "https://github.com/defcronyke/shipping-canada-post-woocommerce"
+  },
+  {
+    "key": "audio_reactive_camera_filter",
+    "title": "Audio-Reactive Camera Filter",
+    "logo": "",
+    "text1": "Visualize your environment through sound. Try it on your cellphone or tablet.",
+    "text2": "Made with HTML5 Web Audio API and WebGL.",
+    "link": "https://unique-result-840.appspot.com/webgl2/webcam_mic1"
+  },
+  {
+    "key": "stacktris",
+    "title": "Stacktris",
+    "logo": "",
+    "text1": "A game that's like Tetris, but opposite.",
+    "text2": "Made with Box2D and PixiJS.",
+    "link": "https://defcronyke.github.io/stacktris"
+  },
+  {
+    "key": "box_hunter",
+    "title": "Box Hunter",
+    "logo": "",
+    "text1": "A game where you have to try to get to the black box without breaking it first.",
+    "text2": "Made with Box2D and WebGL.",
+    "link": "https://defcronyke.github.io/box-hunter-online"
+  },
+  {
+    "key": "grid_pattern_maker",
+    "title": "Grid Pattern Maker",
+    "logo": "",
+    "text1": "For knitting designs or other.",
+    "text2": "Cross-platform, made with C++, WxWidgets, and SDL2.",
+    "link": "https://github.com/defcronyke/GridPatternMaker"
+  },
+  {
+    "key": "audio_fun_2",
+    "title": "Audio Visuals",
+    "logo": "",
+    "text1": "Visualize your music with this HTML5 audio player.",
+    "text2": "Made with HTML5 Canvas and Web Audio API.",
+    "link": "https://audiofun2.appspot.com"
+  },
+  {
+    "key": "contrarium",
+    "title": "Contrarium",
+    "logo": "",
+    "text1": "Search for the opposite of what you're looking for.",
+    "text2": "Made using the Wordnik API.",
+    "link": "https://lucid-shuttle-100413.appspot.com"
+  },
+  {
+    "key": "godscache",
+    "title": "Go DS Cache",
+    "logo": "",
+    "text1": "A Google Cloud Platform Go Datatore wrapper library which adds caching to Datastore queries.",
+    "text2": "Intended for use with App Engine Flexible Environment, Compute Engine, or Kubernetes Engine.",
+    "link": "https://github.com/defcronyke/godscache"
+  },
+  {
+    "key": "recipes",
+    "title": "Recipes",
+    "logo": "",
+    "text1": "Cook good food.",
+    "text2": "And eat it.",
+    "link": "https://github.com/defcronyke/recipes"
+  },
   {
     "key": "yeoman_fountainjs",
     "title": "Yeoman FountainJS",
     "logo": "",
-    "text1": "A client-side web framework that I recommend. This site is made with it.",
-    "link": "http://fountainjs.io"
+    "text1": "A client-side web framework that this site was made with.",
+    "link": "https://github.com/FountainJS/generator-fountain-webapp"
   },
-  
   {
     "key": "eternalvoidnet",
     "title": "EternalVoid.net",
@@ -112,13 +116,11 @@
     "text1": "The source code for this website.",
     "link": "https://github.com/defcronyke/eternalvoidnet"
   },
-  
   {
     "key": "pay_jeremy",
     "title": "Pay Jeremy for Work, Donation, or Other",
     "logo": "",
     "text1": "PayPal or Interac E-Transfer: Jeremy@JeremyCarter.ca",
     "text2": "Bitcoin (BTC): 19kvJVcoSfMFAsryjFM9qwvHFSxDbHsNtF"
-    
   }
 ]
