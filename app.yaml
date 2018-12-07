@@ -1,6 +1,6 @@
-application: eternalvoidnet
-module: default
-version: 1
+# application: eternalvoidnet
+# version: 1
+service: default
 runtime: go
 api_version: go1
 
