@@ -39,6 +39,14 @@
     "link": "https://github.com/defcronyke/shipping-canada-post-woocommerce"
   },
   {
+    "key": "godscache",
+    "title": "Go DS Cache",
+    "logo": "",
+    "text1": "A Google Cloud Platform Go Datatore wrapper library which adds caching to Datastore queries.",
+    "text2": "Intended for use with App Engine Flexible Environment, Compute Engine, or Kubernetes Engine.",
+    "link": "https://github.com/defcronyke/godscache"
+  },
+  {
     "key": "audio_reactive_camera_filter",
     "title": "Audio-Reactive Camera Filter",
     "logo": "",
@@ -87,27 +95,12 @@
     "link": "https://lucid-shuttle-100413.appspot.com"
   },
   {
-    "key": "godscache",
-    "title": "Go DS Cache",
-    "logo": "",
-    "text1": "A Google Cloud Platform Go Datatore wrapper library which adds caching to Datastore queries.",
-    "text2": "Intended for use with App Engine Flexible Environment, Compute Engine, or Kubernetes Engine.",
-    "link": "https://github.com/defcronyke/godscache"
-  },
-  {
     "key": "recipes",
     "title": "Recipes",
     "logo": "",
     "text1": "Cook good food.",
     "text2": "And eat it.",
     "link": "https://github.com/defcronyke/recipes"
-  },
-  {
-    "key": "yeoman_fountainjs",
-    "title": "Yeoman FountainJS",
-    "logo": "",
-    "text1": "A client-side web framework that this site was made with.",
-    "link": "https://github.com/FountainJS/generator-fountain-webapp"
   },
   {
     "key": "eternalvoidnet",
