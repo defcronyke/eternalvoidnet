@@ -13,6 +13,10 @@ h1, h2, h3, h4 {
 
 .App {
   text-align: center;
+  background: url('/img/world_soup.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #1f1f1f;
 }
 
 .header {
@@ -77,4 +81,16 @@ h1, h2, h3, h4 {
         color: #ffffff;
       }
   }
+}
+
+.fillwidth { 
+  width: 100%; 
+  height: auto;
+  background-size: 100% auto;
+}
+
+.fillheight { 
+  width: auto; 
+  height: 100%;
+  background-size: auto 100%;
 }

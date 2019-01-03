@@ -5,9 +5,24 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+    const mainContainerFillClass = (window.innerHeight > window.innerWidth / 1.7)
+      ? 'fillheight'
+      : 'fillwidth';
+
     this.state = {
-      showcase: []
+      showcase: [],
+      mainContainerFillClass
     };
+
+    window.addEventListener('resize', e => {
+      const mainContainerFillClass = (e.target.innerHeight > e.target.innerWidth / 1.7)
+        ? 'fillheight'
+        : 'fillwidth';
+
+      this.setState(() => ({
+        mainContainerFillClass
+      }));
+    });
   }
 
   async componentDidMount() {
@@ -19,10 +34,10 @@ class App extends Component {
   }
 
   render() {
-    const { showcase } = this.state;
+    const { showcase, mainContainerFillClass } = this.state;
 
     return (
-      <div className="App">
+      <div className={`App ${mainContainerFillClass}`}>
         <header>
           <div className="header">
             <h3><a href="/">EternalVoid.net</a></h3>
