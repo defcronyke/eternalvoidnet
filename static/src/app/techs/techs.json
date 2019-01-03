@@ -47,12 +47,12 @@
     "link": "https://github.com/defcronyke/godscache"
   },
   {
-    "key": "audio_reactive_camera_filter",
-    "title": "Audio-Reactive Camera Filter",
+    "key": "telephone_sound_camera_filter",
+    "title": "Telephone Sound Audio-Reactive Camera Filter",
     "logo": "",
-    "text1": "Visualize your environment through sound. Try it on your cellphone or tablet.",
-    "text2": "Made with HTML5 Web Audio API and WebGL.",
-    "link": "https://unique-result-840.appspot.com/webgl2/webcam_mic1"
+    "text1": "Visualize your environment through sound. Try it on your cellphone or tablet, or any device with a screen, camera, and microphone attached.",
+    "text2": "Made with the HTML5 Web Audio API and WebGL.",
+    "link": "https://github.com/defcronyke/ts-camera-filter"
   },
   {
     "key": "stacktris",
