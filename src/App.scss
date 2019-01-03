@@ -1,0 +1,80 @@
+a {
+  text-decoration: none;
+  color: #000000;
+
+    &:visited {
+      color: #000000;
+    }
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  text-align: left;
+
+  a {
+    color: #ff22aa;
+
+    &:visited {
+      color: #ff22aa;
+    }
+  }
+}
+
+.title {
+  background: url('/img/defcronyke-epoch-album-cover.jpg');
+  padding: 1rem;
+  background-size: 100%;
+  color: rgba(0, 255, 255, 1.0);
+  font-size: 2rem;
+}
+
+.showcaseItems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 100%;
+}
+
+.showcaseItem {
+  height: 16rem;
+  width: 16rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgba(0, 255, 255, 0.4);
+  word-wrap: break-word;
+
+  div {
+    p {
+      text-align: left;
+    }
+  }
+}
+
+.footer {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #1f1f1f;
+  text-align: center;
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  
+      &:visited {
+        color: #ffffff;
+      }
+  }
+}

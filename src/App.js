@@ -1,42 +1,45 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
-  render() {
-    const showcase = [
-      {
-        'title': 'JCCSS',
-        'text1': 'Jeremy Carter\'s Computer Service and Sales',
-        'text2': 'Buy a new high quality custom Linux or Windows desktop or laptop computer. Full stack development services available as well.',
-        'link': 'https://jccss.ca'
-      },
+  constructor(props) {
+    super(props);
 
-      {
-        'title': 'Telephone Sound',
-        'text1': 'Daphne and Jeremy\'s band, formed in 2013.',
-        'text2': 'The debut album is available here for streaming or digital download purchase. Recorded and produced entirely using free open source software, such as Ardour, ZynAddSubFX, Hydrogen, etc.',
-        'link': 'https://telephonesound.com'
-      }
-    ];
+    this.state = {
+      showcase: []
+    };
+  }
+
+  async componentDidMount() {
+    const showcase = await fetch('showcase.json').then(res => res.json());
+
+    this.setState(() => ({
+      showcase
+    }));
+  }
+
+  render() {
+    const { showcase } = this.state;
 
     return (
       <div className="App">
         <header>
-          <span>
+          <div className="header">
             <h3><a href="/">EternalVoid.net</a></h3>
-          </span>
+          </div>
         </header>
 
         <main>
-          <span>
+          <div className="title">
             <h1>The Eternal Void Network</h1>
-          </span>
+          </div>
 
-          <div>
+          <div className="showcaseItems">
             {showcase.map(item => (
               <a
                 key={item.title}
                 href={item.link}
+                className="showcaseItem"
               >
                 <div>
                   <h3>{item.title}</h3>
@@ -50,9 +53,9 @@ class App extends Component {
         </main>
 
         <footer>
-          <span>
+          <div className="footer">
             <h4>By <a href="https://jccss.ca">Jeremy Carter</a> &lt;<a href="mailto:Jeremy@JeremyCarter.ca">Jeremy@JeremyCarter.ca</a>&gt; 2019, with art by <a href="https://prettyweird.ca">Daphne Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream">Google Deep Dream</a>.</h4>
-          </span>
+          </div>
         </footer>
       </div>
     );
