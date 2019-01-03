@@ -1,5 +1,7 @@
 The source code for [https://eternalvoid.net](https://eternalvoid.net), Jeremy Carter's portfolio.
 
+An alternate URL for the website is [https://defcronyke.github.io/eternalvoidnet](https://defcronyke.github.io/eternalvoidnet).
+
 ----------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
