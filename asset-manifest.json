@@ -1,13 +1,13 @@
 {
-  "main.css": "/eternalvoidnet/static/css/main.da934629.chunk.css",
-  "main.js": "/eternalvoidnet/static/js/main.3dbeaefd.chunk.js",
-  "main.js.map": "/eternalvoidnet/static/js/main.3dbeaefd.chunk.js.map",
-  "static/js/1.4a34e45d.chunk.js": "/eternalvoidnet/static/js/1.4a34e45d.chunk.js",
-  "static/js/1.4a34e45d.chunk.js.map": "/eternalvoidnet/static/js/1.4a34e45d.chunk.js.map",
-  "runtime~main.js": "/eternalvoidnet/static/js/runtime~main.7e3275d6.js",
-  "runtime~main.js.map": "/eternalvoidnet/static/js/runtime~main.7e3275d6.js.map",
-  "static/css/main.da934629.chunk.css.map": "/eternalvoidnet/static/css/main.da934629.chunk.css.map",
-  "index.html": "/eternalvoidnet/index.html",
-  "precache-manifest.99bc7543fcc1a2b6900122f5ba834507.js": "/eternalvoidnet/precache-manifest.99bc7543fcc1a2b6900122f5ba834507.js",
-  "service-worker.js": "/eternalvoidnet/service-worker.js"
+  "main.css": "./static/css/main.da934629.chunk.css",
+  "main.js": "./static/js/main.735ef89e.chunk.js",
+  "main.js.map": "./static/js/main.735ef89e.chunk.js.map",
+  "static/js/1.4a34e45d.chunk.js": "./static/js/1.4a34e45d.chunk.js",
+  "static/js/1.4a34e45d.chunk.js.map": "./static/js/1.4a34e45d.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
+  "static/css/main.da934629.chunk.css.map": "./static/css/main.da934629.chunk.css.map",
+  "index.html": "./index.html",
+  "precache-manifest.ea3350368c7c62fa0a7c2bed3f22eca6.js": "./precache-manifest.ea3350368c7c62fa0a7c2bed3f22eca6.js",
+  "service-worker.js": "./service-worker.js"
 }
