@@ -84,7 +84,14 @@
   },
   {
     "title": "Pay Jeremy for Work, Donation, or Other",
-    "text1": "PayPal or Interac E-Transfer: Jeremy@JeremyCarter.ca",
+    "text1": "PayPal or Interac E-Transfer: jeremy@jeremycarter.ca",
     "text2": "Bitcoin (BTC): 19kvJVcoSfMFAsryjFM9qwvHFSxDbHsNtF"
+  },
+  {
+    "title": "Contact Info",
+    "text1": "<a href=\"https://jccss.ca\">Jeremy Carter</a>",
+    "text2": "<a href=\"mailto:Jeremy Carter <jeremy@jeremycarter.ca>\">jeremy@jeremycarter.ca</a>",
+    "text3": "<a href=\"https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x45889CD6B86DC3BF\">gpg fingerprint:<br/><code>5D94 B83C 5F70 4530 313F<br/>A69A 4588 9CD6 B86D C3BF</code></a>",
+    "text4": "<code>$ gpg --keyserver hkps://keyserver.ubuntu.com --recv-keys 45889CD6B86DC3BF</code>"
   }
 ]
