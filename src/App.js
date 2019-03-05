@@ -57,10 +57,12 @@ class App extends Component {
                 className="showcaseItem"
               >
                 <div>
-                  <h3>{item.title}</h3>
-                  <p>{item.text1}</p>
-                  <p>{item.text2}</p>
-                  <p>{item.link}</p>
+                  <h3 dangerouslySetInnerHTML={{ __html: item.title }} />
+                  <p dangerouslySetInnerHTML={{ __html: item.text1 }} />
+                  <p dangerouslySetInnerHTML={{ __html: item.text2 }} />
+                  <p dangerouslySetInnerHTML={{ __html: item.text3 }} />
+                  <p dangerouslySetInnerHTML={{ __html: item.text4 }} />
+                  <p dangerouslySetInnerHTML={{ __html: item.link }} />
                 </div>
               </a>
             ))}
@@ -69,7 +71,7 @@ class App extends Component {
 
         <footer>
           <div className="footer">
-            <h4>By <a href="https://jccss.ca">Jeremy Carter</a> &lt;<a href="mailto:Jeremy@JeremyCarter.ca">Jeremy@JeremyCarter.ca</a>&gt; 2019, with art by <a href="https://prettyweird.ca">Daphne Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream">Google Deep Dream</a>.</h4>
+            <h4>By <a href="https://jccss.ca">Jeremy Carter</a> &lt;<a href="mailto:jeremy@jeremycarter.ca">jeremy@jeremycarter.ca</a>&gt; 2019, with art by <a href="https://prettyweird.ca">Daphne Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream">Google Deep Dream</a>.</h4>
           </div>
         </footer>
       </div>
