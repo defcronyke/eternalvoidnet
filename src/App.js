@@ -71,6 +71,11 @@ class App extends Component {
 
         <footer>
           <div className="footer">
+
+            <iframe title="The Eternal Void Network Unreal Tournament 2004 Server" src="https://cache.gametracker.com/components/html0/?host=35.203.61.28:7777&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameborder="0" scrolling="no" width="240" height="536"></iframe> &nbsp;
+
+            <iframe title="The Eternal Void Network Minecraft Server" src="https://cache.gametracker.com/components/html0/?host=45.33.87.90:25565&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameborder="0" scrolling="no" width="240" height="536"></iframe>
+
             <h4>By <a href="https://jccss.ca">Jeremy Carter</a> &lt;<a href="mailto:Jeremy Carter <jeremy@jeremycarter.ca>">jeremy@jeremycarter.ca</a>&gt; 2019, with art by <a href="https://prettyweird.ca">Daphne Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream">Google Deep Dream</a>.</h4>
           </div>
         </footer>
