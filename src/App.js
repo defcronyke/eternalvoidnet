@@ -73,6 +73,7 @@ class App extends Component {
           <div className="footer">
             <div id="gameServers">
               <iframe title="The Eternal Void Network Unreal Tournament 2004 Server" src="https://cache.gametracker.com/components/html0/?host=ut2004.eternalvoid.net:7777&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameborder="0" scrolling="no" width="240" height="536"></iframe>  &nbsp;
+              <iframe title="The Eternal Void Network Unreal Tournament 3 Server" src="https://cache.gametracker.com/components/html0/?host=ut3.eternalvoid.net:7777&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameborder="0" scrolling="no" width="240" height="536"></iframe> &nbsp;
               <iframe title="The Eternal Void Network Minecraft Server" src="https://cache.gametracker.com/components/html0/?host=minecraft.eternalvoid.net:25565&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&showTopPlayers=0&showBlogs=0&width=240" frameborder="0" scrolling="no" width="240" height="412"></iframe>
             </div>
 
