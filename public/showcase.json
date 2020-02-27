@@ -24,9 +24,15 @@
     "link": "https://prettyweird.ca"
   },
   {
+    "title": "Playfair Encryption Cipher Implementation",
+    "text1": "Encrypt your secrets with an algorithm from the 1850s. It is probably not safe to do so, but fun anyway.",
+    "text2": "This can be loaded directly from the Wayback machine, and also has a web version.",
+    "link": "https://playfair.eternalvoid.net"
+  },
+  {
     "title": "Shipping Canada Post WooCommerce",
     "text1": "A free WooCommerce plugin that gives very accurate shipping estimates for Canada Post.",
-    "text2": "Provides some of the premium features from similar plugins for free. Made by Jeremy and Daphne.",
+    "text2": "You can use it on your Wordpress. Made by Jeremy and Daphne.",
     "link": "https://github.com/defcronyke/shipping-canada-post-woocommerce"
   },
   {
@@ -37,7 +43,7 @@
   },
   {
     "title": "Telephone Sound Audio-Reactive Camera Filter",
-    "text1": "Visualize your environment through sound. Try it on your cellphone or tablet, or any device with a screen, camera, and microphone attached.",
+    "text1": "Visualize your environment through sound. Try it on any device with a screen, camera, and microphone attached.",
     "text2": "Made with the HTML5 Web Audio API and WebGL.",
     "link": "https://github.com/defcronyke/ts-camera-filter"
   },
