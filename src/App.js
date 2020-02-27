@@ -84,7 +84,7 @@ class App extends Component {
               </div>
             </div>
 
-            <h4>By <a href="https://jccss.ca">Jeremy Carter</a> &lt;<a href="mailto:Jeremy Carter <jeremy@jeremycarter.ca>">jeremy@jeremycarter.ca</a>&gt; 2019, with art by <a href="https://prettyweird.ca">Daphne Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream">Google Deep Dream</a>.</h4>
+            <h4>By <a href="https://jccss.ca">Jeremy Carter</a> &lt;<a href="mailto:Jeremy Carter <jeremy@jeremycarter.ca>">jeremy@jeremycarter.ca</a>&gt; 2020, with art by <a href="https://prettyweird.ca">Fern Vale Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream">Google Deep Dream</a>.</h4>
           </div>
         </footer>
       </div>
