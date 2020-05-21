@@ -24,6 +24,12 @@
     "link": "https://prettyweird.ca"
   },
   {
+    "title": "Extreme Rise of the Triad",
+    "text1": "Unofficial Linux DosBox helper scripts for The Apogee Throwback Pack version on Steam.",
+    "text2": "Makes LAN gaming, alternate levels, and other things very simple to use without Proton/Wine.",
+    "link": "https://gitlab.com/defcronyke/rise-of-the-triad-dosbox"
+  },
+  {
     "title": "Playfair Encryption Cipher Implementation",
     "text1": "Encrypt your secrets with an algorithm from the 1850s. It is probably not safe to do so, but fun anyway.",
     "text2": "This can be loaded directly from the Wayback machine, and also has a web version.",
