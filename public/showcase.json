@@ -24,6 +24,11 @@
     "link": "https://prettyweird.ca"
   },
   {
+    "title": "Plant Monitor",
+    "text1": "An esp32 plant monitor program for 8 analog moisture sensors, with a wifi client, an sntp client for time synchronization, OTA update support, and a web app for displaying the sensor data in a web browser.",
+    "link": "https://gitlab.com/defcronyke/plant-monitor"
+  },
+  {
     "title": "Extreme Rise of the Triad",
     "text1": "Unofficial Linux DosBox helper scripts for The Apogee Throwback Pack version on Steam.",
     "text2": "Makes LAN gaming, alternate levels, and other things very simple to use without Proton/Wine.",
