@@ -29,6 +29,11 @@
     "link": "https://gitlab.com/defcronyke/plant-monitor"
   },
   {
+    "title": "DDS Signal Generator GH-CJDS66 Control Software",
+    "text1": "A cross-platform command line program which can control nearly every aspect of an inexpensive DDS Signal Generator device, written in the Rust programming language.",
+    "link": "https://gitlab.com/defcronyke/signal-gen-cjds66"
+  },
+  {
     "title": "Extreme Rise of the Triad",
     "text1": "Unofficial Linux DosBox helper scripts for The Apogee Throwback Pack version on Steam.",
     "text2": "Makes LAN gaming, alternate levels, and other things very simple to use without Proton/Wine.",
@@ -93,6 +98,17 @@
     "text1": "Cook good food.",
     "text2": "And eat it.",
     "link": "https://github.com/defcronyke/recipes"
+  },
+  {
+    "title": "GitLab.com Profile",
+    "text1": "Jeremy's GitLab profile page, containing info about the git-based programming projects Jeremy has created, forked, and/or contributed to on GitLab.com.",
+    "link": "https://gitlab.com/defcronyke"
+  },
+  {
+    "title": "GitHub.com Profile",
+    "text1": "Jeremy's GitHub profile page, containing info about the git-based programming projects Jeremy has created, forked, and/or contributed to on GitHub.com.",
+    "text2": "Note that Jeremy is preferring GitLab.com instead lately for any new projects.",
+    "link": "https://github.com/defcronyke"
   },
   {
     "title": "EternalVoid.net",
