@@ -30,8 +30,8 @@
   },
   {
     "title": "DDS Signal Generator GH-CJDS66 Control Software",
-    "text1": "A cross-platform command line program which can control nearly every aspect of an inexpensive DDS Signal Generator device, written in the Rust programming language.",
-    "link": "https://gitlab.com/defcronyke/signal-gen-cjds66"
+    "text1": "A cross-platform command line program and library which can control nearly every aspect of an inexpensive Koolertron DDS Signal Generator device, written in the Rust programming language, and published on crates.io.",
+    "link": "https://crates.io/crates/signal-gen-cjds66-lib"
   },
   {
     "title": "Extreme Rise of the Triad",
