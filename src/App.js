@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+import { copyToClipboard, addCopyToClipboardHoverText } from './copyToClipboard';
 
 class App extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class App extends Component {
 
     this.state = {
       showcase: [],
-      mainContainerFillClass
+      mainContainerFillClass,
     };
 
     window.addEventListener('resize', e => {
@@ -29,15 +30,18 @@ class App extends Component {
     const showcase = await fetch('showcase.json').then(res => res.json());
 
     this.setState(() => ({
-      showcase
+      showcase,
     }));
+
+    addCopyToClipboardHoverText();
   }
 
   render() {
     const { showcase, mainContainerFillClass } = this.state;
 
     return (
-      <div className={`App ${mainContainerFillClass}`}>
+      <div className={`App ${mainContainerFillClass}`} onClick={copyToClipboard}>
+
         <header>
           <div className="header">
             <h3><a href="/">EternalVoid.net</a></h3>

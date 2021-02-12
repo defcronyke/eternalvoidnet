@@ -13,11 +13,9 @@ h1, h2, h3, h4 {
 
 .App {
   text-align: center;
-  // background: url('/img/world_soup.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.0);
-  // background-color: #1f1f1f;
 }
 
 .header {
@@ -101,4 +99,20 @@ h1, h2, h3, h4 {
   iframe {
     vertical-align: top;
   }
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.copyToClipboard {
+  cursor: pointer;
+}
+
+.copyToClipboard:hover {
+  text-decoration: underline;
 }
