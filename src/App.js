@@ -44,7 +44,7 @@ class App extends Component {
 
         <header>
           <div className="header">
-            <h3><a href="/">EternalVoid.net</a></h3>
+            <h3><a href="/" class="link">EternalVoid.net</a></h3>
           </div>
         </header>
 
@@ -66,7 +66,7 @@ class App extends Component {
                   <p dangerouslySetInnerHTML={{ __html: item.text2 }} />
                   <p dangerouslySetInnerHTML={{ __html: item.text3 }} />
                   <p dangerouslySetInnerHTML={{ __html: item.text4 }} />
-                  <p dangerouslySetInnerHTML={{ __html: item.link }} />
+                  <p class="link" dangerouslySetInnerHTML={{ __html: item.link }} />
                 </div>
               </a>
             ))}
@@ -91,7 +91,7 @@ class App extends Component {
               </div>
             </div> */}
 
-            <h4>By <a href="https://jccss.ca">Jeremy Carter</a> &lt;<a href="mailto:Jeremy Carter <jeremy@jeremycarter.ca>">jeremy@jeremycarter.ca</a>&gt; 2020, with art by <a href="https://prettyweird.ca">Fern Vale Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream">Google Deep Dream</a>.</h4>
+            <h4>By <a href="https://jccss.ca" class="link">Jeremy Carter</a> &lt;<a href="mailto:Jeremy Carter <jeremy@jeremycarter.ca>" class="link">jeremy@jeremycarter.ca</a>&gt; 2020, with art by <a href="https://prettyweird.ca" class="link">Fern Vale Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream" class="link">Google Deep Dream</a>.</h4>
           </div>
         </footer>
       </div>
