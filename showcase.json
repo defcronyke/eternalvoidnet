@@ -24,6 +24,21 @@
     "link": "https://prettyweird.ca"
   },
   {
+    "title": "Hobnob",
+    "text1": "A set of Open Base and Open View systems for software projects on Linux, Windows, and macOS. Written in Rust and Go. A work in progress.",
+    "link": "https://github.com/defcronyke/hobnob"
+  },
+  {
+    "title": "GitHub Artifact",
+    "text1": "Download links for your GitHub Actions CI/CD build artifacts. A Rust web app that runs in a Docker container.",
+    "link": "https://github.com/defcronyke/github-artifact"
+  },
+  {
+    "title": "Debian Post-Install Setup",
+    "text1": "Run this script after installing Debian to automatically set up a few things which people sometimes complain about Debian not doing during its official install process.",
+    "link": "https://gitlab.com/defcronyke/debian-post-install"
+  },
+  {
     "title": "Plant Monitor",
     "text1": "An esp32 plant monitor program for 8 analog moisture sensors, with a wifi client, an sntp client for time synchronization, OTA update support, and a web app for displaying the sensor data in a web browser.",
     "link": "https://gitlab.com/defcronyke/plant-monitor"
