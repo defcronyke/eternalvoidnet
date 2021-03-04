@@ -54,6 +54,29 @@
     "link": "https://gitlab.com/defcronyke/signal-gen-cjds66"
   },
   {
+    "title": "Markov Chain Web App",
+    "text1": "Generate some rather incoherent sentences loosely based on an input text.",
+    "link": "https://defcronyke.github.io/markov-chain"
+  },
+  {
+    "title": "<a href=\"https://github.com/defcronyke/markov-url\">Markov URL</a>",
+    "text1": "<a href=\"https://github.com/defcronyke/markov-url\">Generate some rather incoherent sentences loosely based on an input URL.</a>",
+    "text2": "Linux Command: <span class=\"copyToClipboard\">bash <(curl -sL https://tinyurl.com/markov-url)</span> [approx-num-words] [url]",
+    "text3": "<a href=\"https://github.com/defcronyke/markov-url\" class=\"link\">https://github.com/defcronyke/markov-url</a>"
+  },
+  {
+    "title": "<a href=\"https://gitlab.com/defcronyke/vnc-ssh\">VNC SSH</a>",
+    "text1": "<a href=\"https://gitlab.com/defcronyke/vnc-ssh\">A helper script to connect to a VNC server using SSH port forwarding.</a>",
+    "text2": "Linux Command: <span class=\"copyToClipboard\">bash <(curl -sL https://tinyurl.com/vnc-ssh-forward) . &lt;vnc-server-ip-address-for-ssh&gt;</span>",
+    "text3": "<a href=\"https://gitlab.com/defcronyke/vnc-ssh\" class=\"link\">https://gitlab.com/defcronyke/vnc-ssh</a>"
+  },
+  {
+    "title": "<a href=\"https://gitlab.com/defcronyke/git-remote-add-multi\">Git Remote Add Multi</a>",
+    "text1": "<a href=\"https://gitlab.com/defcronyke/git-remote-add-multi\">A helper script to add a new git remote called \"all\" pointing at both the current origin remote, and a secondary remote to use as a mirror.</a>",
+    "text2": "Linux Command: <span class=\"copyToClipboard\">bash <(curl -sL https://tinyurl.com/git-remote-add-multi)</span>",
+    "text3": "<a href=\"https://gitlab.com/defcronyke/git-remote-add-multi\" class=\"link\">https://gitlab.com/defcronyke/git-remote-add-multi</a>"
+  },
+  {
     "title": "Extreme Rise of the Triad",
     "text1": "Unofficial Linux DosBox helper scripts for The Apogee Throwback Pack version on Steam.",
     "text2": "Makes LAN gaming, alternate levels, and other things very simple to use without Proton/Wine.",
