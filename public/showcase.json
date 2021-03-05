@@ -54,16 +54,16 @@
     "link": "https://gitlab.com/defcronyke/signal-gen-cjds66"
   },
   {
-    "title": "<a href=\"https://defcronyke.github.io/markov-chain\">Markov Chain Web App</a>",
-    "text1": "<a href=\"https://defcronyke.github.io/markov-chain\">Generate some rather incoherent sentences loosely based on an input text.</a>",
+    "title": "<a href=\"https://defcronyke.gitlab.io/markov-chain\">Markov Chain Web App</a>",
+    "text1": "<a href=\"https://defcronyke.gitlab.io/markov-chain\">Generate some rather incoherent sentences loosely based on an input text.</a>",
     "text2": "Get text from a random source: <a href=\"https://tinyurl.com/markov-text?words=100\" class=\"link\">https://tinyurl.com/markov-text?words=100</a>",
-    "text3": "<a href=\"https://defcronyke.github.io/markov-chain\" class=\"link\">https://defcronyke.github.io/markov-chain</a>"
+    "text3": "<a href=\"https://defcronyke.gitlab.io/markov-chain\" class=\"link\">https://defcronyke.gitlab.io/markov-chain</a>"
   },
   {
-    "title": "<a href=\"https://github.com/defcronyke/markov-url\">Markov URL</a>",
-    "text1": "<a href=\"https://github.com/defcronyke/markov-url\">Generate some rather incoherent sentences loosely based on an input URL.</a>",
+    "title": "<a href=\"https://gitlab.com/defcronyke/markov-url\">Markov URL</a>",
+    "text1": "<a href=\"https://gitlab.com/defcronyke/markov-url\">Generate some rather incoherent sentences loosely based on an input URL.</a>",
     "text2": "Linux Command: <span class=\"copyToClipboard\">bash <(curl -sL https://tinyurl.com/markov-url)</span> [approx-num-words] [url]",
-    "text3": "<a href=\"https://github.com/defcronyke/markov-url\" class=\"link\">https://github.com/defcronyke/markov-url</a>"
+    "text3": "<a href=\"https://gitlab.com/defcronyke/markov-url\" class=\"link\">https://gitlab.com/defcronyke/markov-url</a>"
   },
   {
     "title": "<a href=\"https://gitlab.com/defcronyke/vnc-ssh\">VNC SSH</a>",
