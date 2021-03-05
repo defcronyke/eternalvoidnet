@@ -56,7 +56,7 @@
   {
     "title": "<a href=\"https://defcronyke.github.io/markov-chain\">Markov Chain Web App</a>",
     "text1": "<a href=\"https://defcronyke.github.io/markov-chain\">Generate some rather incoherent sentences loosely based on an input text.</a>",
-    "text2": "Get text from a random source: <a href=\"https://tinyurl.com/markov-text\" class=\"link\">https://tinyurl.com/markov-text</a>",
+    "text2": "Get text from a random source: <a href=\"https://tinyurl.com/markov-text?words=100\" class=\"link\">https://tinyurl.com/markov-text?words=100</a>",
     "text3": "<a href=\"https://defcronyke.github.io/markov-chain\" class=\"link\">https://defcronyke.github.io/markov-chain</a>"
   },
   {
