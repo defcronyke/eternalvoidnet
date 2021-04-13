@@ -35,7 +35,7 @@
   },
   {
     "title": "Epaper-IDF",
-    "text1": "An easy to use ESP-IDF component and project for e-paper/e-ink displays connected to Espressif ESP32 microcontrollers. A work in progress.",
+    "text1": "An easy to use ESP-IDF component and firmware project for e-paper/e-ink displays connected to Espressif ESP32 microcontrollers. A work in progress.",
     "link": "https://gitlab.com/defcronyke/epaper-idf"
   },
   {
