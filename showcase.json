@@ -34,6 +34,11 @@
     "link": "https://github.com/defcronyke/hobnob"
   },
   {
+    "title": "Epaper-IDF",
+    "text1": "An easy to use ESP-IDF component and project for e-paper/e-ink displays connected to Espressif ESP32 microcontrollers. A work in progress.",
+    "link": "https://gitlab.com/defcronyke/epaper-idf"
+  },
+  {
     "title": "GitHub Artifact",
     "text1": "Download links for your GitHub Actions CI/CD build artifacts. A Rust web app that runs in a Docker container.",
     "link": "https://github.com/defcronyke/github-artifact"
