@@ -71,6 +71,11 @@
     "link": "https://gitlab.com/defcronyke/signal-gen-cjds66"
   },
   {
+    "title": "chonkify.me",
+    "text1": "To chonkify yourself or cat / lizard / turtle / snake. May not be used to chonkify dogs or someone else.",
+    "link": "https://chonkify.me"
+  },
+  {
     "title": "<a href=\"https://defcronyke.gitlab.io/markov-chain\">Markov Chain Web App</a>",
     "text1": "<a href=\"https://defcronyke.gitlab.io/markov-chain\">Generate some rather incoherent sentences loosely based on an input text.</a>",
     "text2": "Get text from a random source: <a href=\"https://tinyurl.com/markov-text?words=100\" class=\"link\">https://tinyurl.com/markov-text?words=100</a>",
