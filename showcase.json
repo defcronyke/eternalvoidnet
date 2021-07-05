@@ -71,9 +71,10 @@
     "link": "https://gitlab.com/defcronyke/signal-gen-cjds66"
   },
   {
-    "title": "chonkify.me",
-    "text1": "To chonkify yourself or cat / lizard / turtle / snake. May not be used to chonkify dogs or someone else.",
-    "link": "https://chonkify.me"
+    "title": "<a href=\"https://chonkify.me\">chonkify.me</a>",
+    "text1": "<a href=\"https://chonkify.me\">To chonkify yourself or cat / lizard / turtle / snake. May not be used to chonkify dogs or someone else.</a>",
+    "text2": "<a href=\"https://gitlab.com/defcronyke/chonkify\" class=\"link\">https://gitlab.com/defcronyke/chonkify</a>",
+    "text3": "<a href=\"https://github.com/defcronyke/chonkify\" class=\"link\">https://github.com/defcronyke/chonkify</a>"
   },
   {
     "title": "<a href=\"https://defcronyke.gitlab.io/markov-chain\">Markov Chain Web App</a>",
