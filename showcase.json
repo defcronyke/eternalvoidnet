@@ -1,9 +1,14 @@
-[
-  {
+[{
     "title": "JCCSS",
     "text1": "Jeremy Carter's Computer Service and Sales",
     "text2": "Buy a new high quality custom Linux or Windows desktop or laptop computer. Full stack development services available as well.",
     "link": "https://jccss.ca"
+  },
+  {
+    "title": "writ",
+    "text1": "Writings by Jeremy that no publisher wanted to buy yet.",
+    "text2": "( eternalvoid.net/writ blog )",
+    "link": "writ"
   },
   {
     "title": "Telephone Sound",

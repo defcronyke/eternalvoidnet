@@ -1,0 +1,136 @@
+Concerns on the danger of modern electronic communications, when implemented maliciously by bad actors, in a globally-connected world
+-
+by Jeremy Carter 2021-11-23
+
+https://eternalvoid.net/writ/2021-11-23-Concerns-on-the-danger-of-modern-electronic-communications-when-implemented-maliciously-by-bad-actors-in-a-globally-connected-world.txt
+-
+------------------------------------------
+
+Intro:
+-----
+There are a lot of dangerous problems with many of the common electronic messaging apps everyone is using these days to
+keep in touch with each other remotely, and here's a few:
+
+1. instagram msging is very popular, but msgs on that app disappear all the time, seemingly at random, then if you 
+refresh the page, some of the conversation sometimes magically comes back but sometimes certain messages are lost 
+forever, as if they were never sent in the first place.
+
+- instagram is owned by Facebook (headquartered at an address known as #1 Hacker Way). They are one of the richest 
+communications and advertising companies on the planet currently, there's no possible way those communications mistakes 
+happening in instagram messenger are software bugs. They are intentional to cause people to have conflict in their 
+lives with each other.
+
+2. whatsapp is an encrypted messenger which usually doesn't lose any messages in the way instagram does, but, to use 
+it, you give out your cellphone number. and if you're sharing your cellphone number with people you don't trust, they 
+only need a few more details along with that number, to be able to call up your phone provider and hijack your IMEI 
+number, which is kind of like a MAC address for your cellphone account. It's actually a really good unique ID number 
+for you as a person, and for most of your location and ecomms info to be looked up by various agencies when they have 
+this number. The lowly scammer can use it to steal or clone your cellphone account and masquerade as you, contacting 
+your friends and tricking them into thinking they are talking to the real you.
+
+- whatsapp is owned by facebook also.
+
+3. There are more comms apps by other companies and ALL OF THEM have at least one or several similar serious privacy 
+and safety flaws, just as bad and similar to the Facebook/Meta company ones mentioned above. I'm not going to go over 
+all of them right now, but there isn't a single ecomms app that is trustworthy today, aside from maybe plain text 
+https-transport-encrypted emails, and maybe a regular outgoing phonecall (cellphone or landline) to a phone number you 
+already know about and trust.
+
+--------
+
+Part 1: Speculation on one of many causes of the problem
+
+Several years ago, everyone moved most web apps that had a high-availability requirement onto some cloud provider 
+platform, such as GCP (Google), or AWS (Amazon), or one of a few others (Heroku, Rackspace, etc.). These platforms are 
+great for that, they have all sorts of failover redundancy which is great for high-availability of your app's landing 
+page to load, and for most of its other services to have a very high percentage uptime. BUT: early-on a decision was 
+made at Google (and I'm betting similar at Amason maybe, but not sure because i don't use that cloud), that their 
+PubSub cloud service, and any other message queueing services they offered at the time, they were going to be using a 
+policy for those similar as "message guaranteed to be delivered eventually, at least once but maybe in duplicate or 
+multiple times".
+
+To give background on what PubSub is, and is used for, it's often for sending small bursts of data like ASCII text or 
+similar, from one spot inside your private cloud, to another internal spot, to communicate important state changes or 
+messages between backend services. Because of the implementation Google (and probably Amazon) chose for these PubSub 
+and MQ systems, and the business policies decided on how they would function, it left the super-important process known 
+as "de-duping" (a.k.a. "data de-duplication", and another really important one known as serialisation / 
+deserialisation), up to the backend developer to solve. If the backend developer of some cloud-hosted service didn't 
+read the docs properly, or didn't understand that they have this responsibility, or is simply a malicious actor, they 
+can simply not follow deduping best practices, and claim ignorance of the whole issue, and then what can happen can be 
+very real-world harmful, depending on what that PubSub or Message Queue (MQ) is being used for in the developer's apps.
+
+So you can imagine what might happen when de-duping isn't performed correctly or at all... and if you can't, i'll tell 
+you:
+
+Your messenger app maybe uses PubSub or MQ to tell one piece of itself that your friend #A just came online... except 
+maybe the app has some fail-safe code put there by some responsible backend dev already, which is expecting that only 
+offline users can come online, at least on one specific internet-connected device (and on that device, only once on the 
+same *app* or *webapp* on that device). So then if the user comes online twice on the same device, what happens? It's 
+anyone's guess. The developer who implemented the check to make sure users are only coming online once per app/device, 
+probably it's not their job and they don't even have access to the code for the PubSub or MQ pipeline which is supposed 
+to be being de-duped and serialized/ordered correctly.
+
+It gets worse when you consider a maybe more paranoid idea (but definitely something to worry about IMO): Imagine if 
+those PubSub / MQ implementers at places like #1 Hacker Way are exploiting the characteristic of these PubSub or MQ 
+pipelines having "eventual delivery", to actually monitor the contents and *decide* which communications go through and 
+which ones get blocked or mysteriously lost (or even ALTERED, THEN DELIVERED!).
+
+Depending on the local regulations around ecomms in whatever country a company like facebook is operating. Any of these 
+malicious types of theoretical communications attacks could be totally legal for a company like Meta/Facebook to do 
+regularly, or it could at least be legal for Meta to provide Facebook tools to the country's government, so the 
+government could do those malicious communication attacks to their local populations. Perhaps a company like Meta might 
+offer this capability to a government in exchange for some kind of future regulatory favouritism.
+
+
+--------
+
+Part 2: Thoughts on why every modern ecomms system has these kinds of problems (or other problems)
+
+Colonialism and [usually white] nationalism
+
+Countries are afraid of their own people. Period. They needn't be, but they are and it's really sad.
+
+
+--------
+
+Part 3: Where this is likely going without drastic intervention
+
+Broken communication can cause death. It can and does facilitate genocide. Manipulated / altered communication between 
+a spouse and their partner can cause things like children to get lost or abducted by outside parties, and can even lead 
+to things like misunderstandings causing suicide or homocides (and it does already).
+
+For a real-world example, try playing the childhood game that's popular at least in my country Canada and i'm sure 
+other places too, known as "broken telephone". But try sending a message on one end of the line which would be really 
+important for the person at the other end to receive timely and properly. Then watch and see what message they actually 
+got and imagine what action in real life they might take if they were acting on having received a similar message in an 
+important real-life situation. The outcome can be very harmful and terrible (or sometimes just tragic or even a bit 
+funny)! In any case, the communication was broken or altered when there's no real technological reason why it had to 
+be, and because of the change to the timing or content of the communication (or whether the communication was maybe 
+fully-blocked from being sent at all), the life of the communicator and the communicatee is forever altered and 
+sometimes can be negatively effected or ended as a result of the altered communication.
+
+So where are we headed in the world where communication is always broken unless it's happening in-person? Well it's 
+anyone's guess but to me it seems likely that it's nowhere good. And it doesn't need to be this way, there is no 
+technological excuse why communication has to be broken on all ecomms apps the way it is. It's broken the way it is, 
+because EVERY CRYPTOGRAPHER and EVERY TELCO EXEC employed today is complicit in making purposefully broken electronics 
+communications systems. Many of them do it under duress so it's important to have compassion when addressing this 
+topic, but, they make the choice to go into work every day, and build systems which ruin lives and will ultimately lead 
+to lots of missed or altered communications world-wide.
+
+This has to change.
+
+
+END>
+
+-----------
+
+msg me anytime if you'd like to discuss this or another topic: 
+
+defcronyke@eternalvoid.net jeremy@jccss.ca jeremy@jeremycarter.ca defcronyke@gmail.com support@jccss.ca
+
+
+
+----
+
+[ SELF PROMO AD: Coming mid or late 2023: deepfreeze.app | deepfreeze.me . Send email if you'd like to be involved 
+  early on, there's some perks for early testers and support volunteers, but no money at all yet. ]
