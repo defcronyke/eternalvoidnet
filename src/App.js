@@ -75,21 +75,22 @@ class App extends Component {
 
         <footer>
           <div className="footer">
-            {/* <div id="gameServers">
+            <div id="gameServers">
+				<iframe title="frozen pancake - Ark Survival Evolved Server" src="https://cache.gametracker.com/components/html0/?host=ark.eternalvoid.net:7777&bgColor=1f2642&fontColor=8790ae&titleBgColor=11172d&titleColor=ffffff&borderColor=333333&linkColor=ff9900&borderLinkColor=999999&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameBorder="0" scrolling="no" width="240" height="536" />
               
-              <iframe title="Eternal Void Unreal Tournament 2004 Server" src="https://cache.gametracker.com/components/html0/?host=ut2004.eternalvoid.net:7877&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameBorder="0" scrolling="no" width="240" height="536"></iframe> &nbsp; 
+              {/* <iframe title="Eternal Void Unreal Tournament 2004 Server" src="https://cache.gametracker.com/components/html0/?host=ut2004.eternalvoid.net:7877&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameBorder="0" scrolling="no" width="240" height="536"></iframe> &nbsp;  */}
 
-              <iframe title="Eternal Void Unreal Tournament 3 Server" src="https://cache.gametracker.com/components/html0/?host=ut3.eternalvoid.net:7777&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameBorder="0" scrolling="no" width="240" height="536"></iframe>  &nbsp; 
+              {/* <iframe title="Eternal Void Unreal Tournament 3 Server" src="https://cache.gametracker.com/components/html0/?host=ut3.eternalvoid.net:7777&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameBorder="0" scrolling="no" width="240" height="536"></iframe>  &nbsp;  */}
               
-              <iframe title="The Eternal Void Network Ark Survival Evolved Server" src="https://cache.gametracker.com/components/html0/?host=ark.eternalvoid.net:7777&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameBorder="0" scrolling="no" width="240" height="536"></iframe> &nbsp; 
+              {/* <iframe title="The Eternal Void Network Ark Survival Evolved Server" src="https://cache.gametracker.com/components/html0/?host=ark.eternalvoid.net:7777&bgColor=333333&fontColor=cccccc&titleBgColor=222222&titleColor=ff9900&borderColor=555555&linkColor=ffcc00&borderLinkColor=222222&showMap=1&currentPlayersHeight=100&showCurrPlayers=1&topPlayersHeight=100&showTopPlayers=1&showBlogs=0&width=240" frameBorder="0" scrolling="no" width="240" height="536"></iframe> &nbsp;  */}
               
-              <div className="ut">
+              {/* <div className="ut">
                 <p>
                   <span>The Eternal Void Network CA Unreal Tournament Pre-Alpha Hub</span><br />
                   <span>ut.eternalvoid.net:7777</span>
                 </p>
-              </div>
-            </div> */}
+              </div> */}
+            </div>
 
             <h4>By <a href="https://jccss.ca" class="link">Jeremy Carter</a> &lt;<a href="mailto:Jeremy Carter <jeremy@jeremycarter.ca>" class="link">jeremy@jeremycarter.ca</a>&gt; 2020, with art by <a href="https://prettyweird.ca" class="link">Fern Vale Volante of Pretty Weird</a> and <a href="https://github.com/google/deepdream" class="link">Google Deep Dream</a>.</h4>
           </div>
