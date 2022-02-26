@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.669e5795.chunk.css",
-    "main.js": "/static/js/main.bb1f1ab8.chunk.js",
-    "main.js.map": "/static/js/main.bb1f1ab8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d61e8caa.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d61e8caa.js.map",
-    "static/js/2.48216302.chunk.js": "/static/js/2.48216302.chunk.js",
-    "static/js/2.48216302.chunk.js.map": "/static/js/2.48216302.chunk.js.map",
+    "main.css": "/static/css/main.f574b28c.chunk.css",
+    "main.js": "/static/js/main.bda329d5.chunk.js",
+    "main.js.map": "/static/js/main.bda329d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ed4a9384.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ed4a9384.js.map",
+    "static/js/2.f3518ed5.chunk.js": "/static/js/2.f3518ed5.chunk.js",
+    "static/js/2.f3518ed5.chunk.js.map": "/static/js/2.f3518ed5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.669e5795.chunk.css.map": "/static/css/main.669e5795.chunk.css.map",
-    "static/js/2.48216302.chunk.js.LICENSE.txt": "/static/js/2.48216302.chunk.js.LICENSE.txt",
+    "static/css/main.f574b28c.chunk.css.map": "/static/css/main.f574b28c.chunk.css.map",
+    "static/js/2.f3518ed5.chunk.js.LICENSE.txt": "/static/js/2.f3518ed5.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/defcronyke-epoch-album-cover.57e8aeda.jpg",
     "static/media/index.css": "/static/media/world_soup.2c70a17a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d61e8caa.js",
-    "static/js/2.48216302.chunk.js",
-    "static/css/main.669e5795.chunk.css",
-    "static/js/main.bb1f1ab8.chunk.js"
+    "static/js/runtime-main.ed4a9384.js",
+    "static/js/2.f3518ed5.chunk.js",
+    "static/css/main.f574b28c.chunk.css",
+    "static/js/main.bda329d5.chunk.js"
   ]
 }
